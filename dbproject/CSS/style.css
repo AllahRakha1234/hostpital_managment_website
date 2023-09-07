@@ -1,0 +1,576 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body */
+body {
+    background: url("../img/bg.jpg") no-repeat center center/cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* *********************************** Index Page Start *********************************** */
+#login-signup-btn-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 55vw;
+}
+
+.login-sign-btn {
+    margin: 1vh 0;
+    height: 6vh;
+    text-align: center;
+    font-size: 1vh;
+    /* font-weight: bold; */
+}
+
+/* *********************************** Index Page End *********************************** */
+
+/* Navbar */
+
+#navbar {
+    display: flex;
+    position: sticky;
+    top: 0px;
+    background-color: black;
+    height: 8vh;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul li {
+    list-style: none;
+}
+
+#navbar ul li a {
+    display: block;
+    color: white;
+    padding: 0 10px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+#navbar ul li a:hover {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+#logo {
+    margin: 0px 10px;
+
+}
+
+#logo img {
+    height: 7vh;
+    width: 10vw;
+    margin: 5px 10px;
+}
+
+/* ContainerAll */
+#container-all {
+    display: flex;
+    flex-direction: row;
+
+}
+
+/* Sidebar */
+#sidebar {
+    /* display: flex;
+    flex-direction: column; */
+    background-color: rgb(44, 133, 145);
+    color: white;
+    width: 15vw;
+    height: 84vh;
+    border: 1px solid white;
+}
+
+.sd-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+    width: 15vw;
+    border-bottom: 1px solid white;
+}
+
+.sd-list a {
+    text-decoration: none;
+    color: white;
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+.sd-list a:hover {
+    color: black;
+    background-color: white;
+    font-weight: bold;
+}
+
+/* video css */
+#myVideo{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 84vh;
+    width: 85vw;
+    background-color: black;
+    border: 3vh solid white;
+}
+/* Slider */
+
+/* self defined class .cls and .mg */
+.cls {
+    height: 50vh;
+    width: 85vw;
+}
+
+.mg1 {
+    margin-right: 45vw;
+}
+
+.carousel {
+    width: 100vw;
+    height: 85vh;
+}
+
+.carousel .carousel-item img{
+    /* width: 100vw; */
+    height: 85vh;
+}
+
+/* #s1{
+    height: 100% ;
+    width: 100%;
+
+}
+#s2{
+    background-image: auto;
+}
+#s3{
+    background-image: auto;
+} */
+
+/* .mg2{
+    margin-left: 6vw;
+} */
+
+
+/* Login CSS for all members */
+
+/* 1.Admin Login */
+#adm-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    width: 100vw;
+}
+
+#adm-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 50vh;
+    width: 20vw;
+    border: 2px solid rgb(243, 50, 1);
+    border-radius: 10px;
+}
+
+#adm-container #adm-login #adm-submit-btn {
+    margin-top: 1vh;
+}
+
+#adm-container #adm-login #adm-submit-btn:hover {
+    font-weight: bold;
+}
+
+/* Utility classes for all other login boxes using admin login structure */
+.adm-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    width: 100vw;
+}
+
+.adm-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 50vh;
+    width: 20vw;
+    border: 2px solid rgb(228, 0, 0);
+    border-radius: 10px;
+}
+
+.adm-submit-btn {
+    margin-top: 1vh;
+    padding: 5px 12px;
+    background-color: rgb(55, 0, 255);
+    color: white;
+    border: none;
+}
+
+.adm-submit-btn:hover {
+    font-weight: bold;
+    border: 2px solid red;
+}
+
+/* CSS for AdminRights Page and also used for othersRights page servee as utility classes   */
+
+.container-compnents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    width: 100vw;
+}
+
+.doctor-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/adminRights/doctor1.jpg");
+}
+
+.nurse-box {
+    background-image: url("../img/adminRights/nurse.jpg");
+    background-position-x: -1vw;
+}
+
+.patient-box {
+    background-image: url("../img/adminRights/patient.jpg");
+    background-position-x: -2vw;
+}
+
+.wardboy-box {
+    background-image: url("../img/adminRights/wardboy.jpg");
+    background-position-x: -1vw;
+}
+
+.call-box {
+    background-image: url("../img/adminRights/call.jpg");
+    background-size: 176px 235px;
+}
+
+/* .room-box {
+    background-image: url("../img/room.jpg");
+    background-size: 176px 235px;
+} */
+
+.box-decor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(179, 137, 134);
+    height: 40vh;
+    width: 15vw;
+    margin: 2vw;
+    border: 2vh solid black;
+}
+
+.boxes-text-decor {
+    margin: 1vw;
+    text-align: center;
+    text-decoration: none;
+    font-size: 3vh;
+    background-color: aqua;
+    width: 13.1vw;
+    height: 5vh;
+    margin-top: 33vh;
+    box-sizing: border-box;
+}
+
+.boxes-link-decor {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(10, 9, 9);
+}
+
+.boxes-link-decor:hover {
+    color: white;
+}
+
+/* CSS for AdminRightsPage other than utitlity clases only specific to that page using IDs */
+
+/* #admin-container-compnents{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    height: 85vh;
+    width: 100vw;   
+} */
+
+.container-compnents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    height: 85vh;
+    width: 100vw;
+}
+
+#admin-doctor_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/adminRights/doctor1.jpg");
+    background-size: 160px 190px;
+    height: 30vh;
+    width: 12vw;
+    background-position: center;
+}
+
+#admin-nurse_box {
+    background-image: url("../img/adminRights/nurse.jpg");
+    background-position-x: -1vw;
+    background-size: 140px 180px;
+    height: 30vh;
+    width: 12vw;
+    background-position: center;
+
+}
+
+#admin-patient_box {
+    background-image: url("../img/adminRights/patient.jpg");
+    background-position-x: -2vw;
+    background-size: 160px 200px;
+    height: 30vh;
+    width: 12vw;
+    background-position: center;
+}
+
+#admin-wardboy_box {
+    background-image: url("../img/adminRights/wardboy.jpg");
+    background-position-x: -1vw;
+    background-size: 140px 180px;
+    height: 30vh;
+    width: 12vw;
+    background-position: center;
+
+}
+
+#admin-call_box {
+    background-image: url("../img/adminRights/call.jpg");
+    background-size: 176px 235px;
+    height: 30vh;
+    width: 12vw;
+}
+
+#admin-call_box {
+    background-image: url("../img/adminRights/call.jpg");
+    background-size: 176px 235px;
+    height: 30vh;
+    width: 12vw;
+}
+
+#admin-room_box {
+    background-image: url("../img/adminRights/room.jpg");
+    background-size: 170px 225px;
+    height: 30vh;
+    width: 12vw;
+    background-position: center;
+
+}
+
+#admin-payment_box {
+    background-image: url("../img/adminRights/payment2.jpg");
+    background-size: 166px 195px;
+    height: 30vh;
+    width: 12vw;
+    background-position: center;
+
+}
+
+#admin-supportgroup_box {
+    background-image: url("../img/adminRights/sg.jpg");
+    background-size: 135px 180px;
+    height: 30vh;
+    width: 12vw;
+    background-position: center;
+
+}
+
+#admin-doctor_nurse_box {
+    background-image: url("../img/adminRights/doctor_nurse.jpg");
+    background-size: 180px 405px;
+    height: 30vh;
+    width: 12vw;
+    background-position: center;
+}
+
+#admin-doctor_wardboy_box {
+    background-image: url("../img/adminRights/doctor_wboy.jpg");
+    background-size: 140px 170px;
+    height: 30vh;
+    width: 12vw;
+    background-position: center;
+}
+
+#admin-doctor_patient_box {
+    background-image: url("../img/adminRights/doctor_patient.jpg");
+    background-size: 160px 170px;
+    height: 30vh;
+    width: 12vw;
+    background-position: center;
+}
+
+/* CSS for supportgroupRightsPage using IDs */
+
+
+
+/* CSS for PatientRightsPage using IDs */
+
+#patient-call_box {
+    background-image: url("../img/adminRights/call.jpg");
+    background-size: 176px 235px;
+}
+
+#patient-room_box {
+    background-image: url("../img/adminRights/room1.jpg");
+    background-size: 176px 235px;
+}
+
+/* CSS for adminRigts on doctor,patient,nurse,wardboy table ---> Serve as Utitility classes   */
+.delete-edit-container {
+    margin: 2vh auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 80vw;
+    /* border: 1vh solid rgb(38, 131, 95); */
+}
+
+.delete-data {
+    display: flex;
+    justify-content: center;
+    height: 6vh;
+    width: 40vw;
+
+}
+
+.edit-data {
+    display: flex;
+    justify-content: center;
+    height: 6vh;
+    width: 40vw;
+
+}
+
+
+/* Footer */
+footer {
+    display: flex;
+    background-color: black;
+    color: white;
+    font-size: 3vh;
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+    margin-top: 0vh;
+    /* position: relative; */
+}
+
+/********************************* Utility Classes *****************************************/
+
+h3 {
+    color: rgb(31, 0, 204);
+}
+
+.h-primary {
+    font-size: 1.8rem;
+    padding: 5px;
+}
+
+.h-secondary {
+    font-size: 1.8rem;
+    padding: 5px;
+    background-color: aqua;
+}
+
+/* .bg-design{
+    background-color: aqua;
+    margin: 0px 569px;
+} */
+
+.text-center {
+    text-align: center;
+}
+
+.left-margin {
+    margin-left: 40vw;
+}
+
+.top-margin {
+    margin-top: 2vh;
+}
+
+/* CCS For Button  */
+.bttn {
+    padding: 5px 12px;
+    background-color: rgb(55, 0, 255);
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.bttn:hover {
+    font-weight: bold;
+    border: 2px solid red;
+}
+
+/* Table Representation CSS */
+table {
+    margin: 0 auto;
+    background-color: white;
+}
+
+table,
+th,
+td {
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    text-align: center;
+}
+
+/* th{
+    background-color: burlywood;
+} */
+/* This utility is used only for update files input tags */
+.input_width {
+    width: 9vw;
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+/* This utility is made for any file and can be used to make input tag transparent */
+.input_border_setting {
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+/* This utility is made for any file input tag to make text align */
+input {
+    text-align: center;
+}
+
+.image_property {
+    background-size: auto;
+}
